@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Exoplayer</string>
+    <string name="video_two">https://stream7.iqilu.com/10339/upload_transcode/202002/18/20200218114723HDu3hhxqIT.mp4</string>
+    <string name="video_one">https://stream7.iqilu.com/10339/article/202002/18/2fca1c77730e54c7b500573c2437003f.mp4</string>
+
+</resources>

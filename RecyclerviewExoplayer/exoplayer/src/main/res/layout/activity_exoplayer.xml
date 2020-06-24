@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ExoplayerActivity">
+  <!--      app:use_controller="false"
+  快进
+    app:fastforward_increment="30000"
+    后退
+      app:rewind_increment="30000"
+      隐藏控制控件
+         app:show_timeout="10000"
+  不显示快进/后退/暂停按钮-->
+  <com.google.android.exoplayer2.ui.PlayerView
+      android:id="@+id/video_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:show_timeout="10000"
+      app:controller_layout_id="@layout/custom_playback_control"
+    />
+</FrameLayout>
